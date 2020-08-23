@@ -10,4 +10,10 @@
 5.  Done.
 
 **Create Individual IAM User**
-1.  
+1.  Manage Users
+2.  Add User
+    *User name: Desired_username*
+    *Access type: Required access_type*
+    **For Programmatic access there is nothing to do while for AWS Management Console access you've to assign other details as per need**
+3.  Next Permission
+    
