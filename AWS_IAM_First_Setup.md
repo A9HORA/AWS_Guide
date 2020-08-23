@@ -6,7 +6,7 @@
 1. Install Google or Microsoft Authenticator in your android or iphone device.
 2. Click on show QR code and scan it with your authenticator app.
 3. Add two codes as per your authenticaor app.
-4. Click on Create MFA.1
+4. Click on Create MFA.
 5. Done.
 
 **Create Individual IAM User**
