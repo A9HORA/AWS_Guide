@@ -27,3 +27,4 @@
 9. There will be two options for you after user creation  
    *  Download .csv  **You can download details in a csv file**  
    *  Send Email  **You can send one to one email**  
+10. Close
