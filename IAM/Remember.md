@@ -6,5 +6,4 @@
   * Have no permission when first created.
   * Assigned `Access Key ID` & `Secret Access Keys`
 * Roles are useful when we want two machines or servers or aws facilities to talk to each other. `such as ec2 talks to s3`  
-* You can create your custom policy for roles as per your need.  
-*  
+* You can create your custom policy for roles as per your need. 
