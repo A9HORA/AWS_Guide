@@ -13,4 +13,5 @@
   4. Integrates with life-cycle rules.
   5. Has MFA delete capability.
 * Whenever you upload the same file in S3 after making certain changes, you have to reasssign the permission because S3 versioning maintains different version ids of files if versioning is enabled.  
+* When you delete something from S3 it places **delete marker** for the chosen file instead of really deleting it. So even though you see your bucket empty from version tab you can restore them.
 * 
