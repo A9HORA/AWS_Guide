@@ -1,0 +1,19 @@
+# Storage Gateway (StorageGW  //Made this shortform for my ease.)
+
+1.  SoftwareGW is a service useful to connect an on-premise IT environment to AWS's storage infrastructure.
+2.  It provides secure & seamless integration of the on-premise software appliance to the cloud-based storage.
+3.  In other words, it replicates your data center data to AWS cloud storage.
+4.  The StorageGW comes in form of a VM image that you install on a host in your data center.
+5.  It supports VMware ESXi or Microsoft Hyper-V.
+6.  The StorageGW has three variants as follows:
+    1.  File Gateway (NFS & SMB)
+    2.  Volumn Gateway (iSCSI)  `A way of storing VDD or HDD in S3`
+        * Stored Volumnes
+        * Cached Volumnes
+    3.  Type Gateway (VTL)
+
+# File Gateway
+  
+  * A way to store files in S3, accessed through a NFS mount point.
+  * Ownership, permissions and timestamps are durably stored in S3 in the user metadata of the object associated with the file.
+  * Once objects are transferred to S3, they can be managed as native S3 objects and all the bucket policies apply directly to objects stored in your bucket.
