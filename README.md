@@ -3,3 +3,8 @@ This repo is basically a collection of notes I made during my aws study so anyon
 
 # Note  
 Please create your AWS account first. So you can make your hands dirty with handson.
+
+# Index
+1. IAM
+2. S3
+3. CloudFront
