@@ -11,3 +11,5 @@ Please create your AWS account first. So you can make your hands dirty with hand
 4. Snowball
 5. Storage GW (Storage Gateway)
 6. Athena & Macie
+7. EC2
+8. 
