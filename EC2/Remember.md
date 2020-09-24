@@ -5,3 +5,7 @@
 * **Amazon Linux** is based on **CentOS 6.x** while **Amazon Linux 2** is based on **CentOS 7.x**.
 * VPC stands for **Virtual Private Cloud**. In other words, your own virtual network you have to manage for your instances as per your requirements.
 * Free tier eligible customers can get up to 30 GB of EBS General Purpose (SSD) or Magnetic storage.
+* The status check tab for selected instance shows two types of checks as follows:
+    * System status checks    `Checks status of the physical system which is AWS hypervisor.`
+    * Instance status checks    `Checks status of the selected EC2 instance.`
+* To teminate the instance, first check if the termination protection is `Enabled` or not. If it's `Enabled` then first disable by going in instance settings and then you can terminate the selected instance.
