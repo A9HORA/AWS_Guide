@@ -3,8 +3,7 @@ This repo is basically a collection of notes I made during my aws study so anyon
 
 # Note  
 1.  Please create your AWS account first. So you can make your hands dirty with handson.
-2.  Amazon updates the AWS console's design and adds certain features in periodic manner. There are possibilities of certain changes while you use this repo.   
-    Therefore, I would recommend to refer AWS documentation if you are stuck somewhere.
+2.  Amazon updates the AWS console's design and adds certain features in periodic manner. There are possibilities of certain changes while you use this repo. Therefore, I would recommend to refer AWS documentation if you are stuck somewhere.
 # Index
 1. IAM
 2. S3
