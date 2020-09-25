@@ -6,3 +6,4 @@
       3.  Throughput Optimized HDD for `Big Data & Warehouses` uses `st1` API  
       4.  Cold HDD for `File Servers` uses `sc1` API  
       5.  Magnetic for  `Infrequent data access workload` uses `standard` API  
+4.  **Provisional IOPS SSD** is the **fastest** one while **Magnetic** is the **slowest** one among all the types.
