@@ -10,5 +10,5 @@
 5.  Considering EBS as a HDD/SSD, keep it always in same region where your EC2 is for avoiding any performance issue.
 6.  You can move your EBS from one availblility zone to another one.
 7.  You can also add as many EBS as you want to an EC2 instance. In other words, we can attach more than one HDD to our PC.
-8.  Be default, root volume is prone to termination when you terminate the EC2 instance. While other types of EBS are not. Though you can control this behaviour when you setup the instance for the first time or when you create new volumn/s. You can also change a volumn type from above mentioned five to any of them.
-9.  A root volumn always start with a prefix of `snap-` under volumns section of EC2 service.
+8.  Be default, root volume is prone to termination when you terminate the EC2 instance. While other types of EBS are not. Though you can control this behaviour when you setup the instance for the first time or when you create new volume/s. You can also change a volume type from above mentioned five to any of them.
+9.  A root volumn always start with a prefix of `snap-` under volume section of EC2 service.
