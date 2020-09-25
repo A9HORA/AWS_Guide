@@ -13,3 +13,5 @@ This repo is basically a collection of notes I made during my aws study so anyon
 6. Athena & Macie
 7. EC2
 8. Security Groups
+9. Elastic Block Store (EBS)
+10. 
