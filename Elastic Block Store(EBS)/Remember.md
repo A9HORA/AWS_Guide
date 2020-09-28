@@ -16,3 +16,4 @@
       1.    Hardware-assisted virtualization
       2.    Paravirtual
 11. AWS stores `volumes` in `EBS` while `snapshots` in `S3`.
+12. First stop the instance then take it's snapshot is one of the best practices.
