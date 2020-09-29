@@ -23,3 +23,4 @@
 14. Even though the underlying hypervisor/host fails the EBS type volume never loses the data while the instance store type volume does.
 15. For **removing the chosen snapshot** you have to first **deregister the respective AMI** you created by using that snapshot.
 16. You can not launch an instance with already encrypted storage by changing the value to **Not Encrypted** at **Add Storage**
+17. Snapshot of already encrypted volume will be encrypted automatically, same for restoration. So only unencrypted snapshots can be shared via AWS accounts or making them public.
