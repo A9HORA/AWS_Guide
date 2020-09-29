@@ -22,3 +22,4 @@
     2. Instance Store Volume/Ephemeral Storage         `Created from a template stored in Amazon S3`
 14. Even though the underlying hypervisor/host fails the EBS type volume never loses the data while the instance store type volume does.
 15. For **removing the chosen snapshot** you have to first **deregister the respective AMI** you created by using that snapshot.
+16. You can not launch an instance with already encrypted storage by changing the value to **Not Encrypted** at **Add Storage**
