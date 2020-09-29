@@ -21,3 +21,4 @@
     1. EBS Volume        `Created from an Amazon EBS snapshot`
     2. Instance Store Volume/Ephemeral Storage         `Created from a template stored in Amazon S3`
 14. Even though the underlying hypervisor/host fails the EBS type volume never loses the data while the instance store type volume does.
+15. For **removing the chosen snapshot** you have to first **deregister the respective AMI** you created by using that snapshot.
