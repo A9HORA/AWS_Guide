@@ -17,3 +17,7 @@
       2.    Paravirtual
 11. AWS stores `volumes` in `EBS` while `snapshots` in `S3`.
 12. First stop the instance then take it's snapshot is one of the best practices.
+13. There are two different types of AMI based on volume types:  
+    1. EBS Volume        `Created from an Amazon EBS snapshot`
+    2. Instance Store Volume/Ephemeral Storage         `Created from a template stored in Amazon S3`
+14. Even though the underlying hypervisor/host fails the EBS type volume never loses the data while the instance store type volume does.
