@@ -16,4 +16,5 @@ This repo is basically a collection of notes I made during my aws study so anyon
 8. Security Groups
 9. Elastic Block Store (EBS)
 10. Enhanced Networking (EN)
-11. 
+11. Cloudwatch
+12.
