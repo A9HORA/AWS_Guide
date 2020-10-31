@@ -11,8 +11,13 @@
 * To teminate the instance, first check if the termination protection is `Enabled` or not. If it's `Enabled` then first disable by going in instance settings and then you can terminate the selected instance.
 * You can define certain commands when the instance boots up using **bootstrap scripts**.  
 * A BootStrap script is a way of 
-	1.	Automating the EC2 instance deployment  
-	2.	Running things at command line when your instance first boots up  
+	1. Automating the EC2 instance deployment  
+	2. Running things at command line when your instance first boots up  
 * To do so you can use advanced options when you setup the instance for the first time.  
+* You can get metadata(additional information) of your instance by curl command by following steps:  
+	a. SSH your ec2 instance.  
+	b. Use command `curl http://169.254.169.254/`.  
+	c. You'll be able to see multiple directories. From here you can choose whatever you want and dive deep in it.  
+* 
 
 
