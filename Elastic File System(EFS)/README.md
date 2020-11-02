@@ -1,0 +1,1 @@
+# In certain cases, only mandatory configuration settings are mentioned or some fields which can impact the end results. If you are using this repo you have to use your skills and instinct before changing anything.
