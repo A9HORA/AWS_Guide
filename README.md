@@ -18,3 +18,4 @@ This repo is basically a collection of notes I made during my aws study so anyon
 10. Enhanced Networking (EN)
 11. Cloudwatch
 12. Elastic File System (EFS)
+13. FSx
