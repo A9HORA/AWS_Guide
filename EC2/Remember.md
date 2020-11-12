@@ -18,6 +18,11 @@
   1. SSH your ec2 instance.  
   2. Use command `curl http://169.254.169.254/`.  
   3. You'll be able to see multiple directories. From here you can choose whatever you want and dive deep in it.  
-* 
-
-
+* The name you specify for placement group must be unique within your AWS account.  
+* Homogenous instances are recommanded for clustered placement group by AWS.  
+* You can not merge placement groups.  
+* Certain types of instance can be launched within in placement groups such as:  
+   *  Compute Optimized  
+   *  GPU  
+   *  Memory Optimized  
+   *  Storage Optimized  
