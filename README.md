@@ -19,3 +19,4 @@ This repo is basically a collection of notes I made during my aws study so anyon
 11. Cloudwatch
 12. Elastic File System (EFS)
 13. FSx
+14. AWS Web Application Firewall (WAF)
