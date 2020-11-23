@@ -8,3 +8,4 @@
   4.  CNAMES  
   5.  MX Records  
   6.  PTR Records `Reverse of A Records`  
+* **You can register a domain name using Route 53.**
