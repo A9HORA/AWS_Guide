@@ -22,3 +22,4 @@ This repo is basically a collection of notes I made during my aws study so anyon
 14. AWS Web Application Firewall (WAF)
 15. Databases
 16. Route53
+17. VPC (Virtual Private Cloud)
