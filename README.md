@@ -6,7 +6,7 @@ This repo is basically a collection of notes I made during my aws study so anyon
 2.  Amazon updates the AWS console's design and adds certain features in periodic manner. There are possibilities of certain changes while you use this repo. Therefore, I would recommend to refer AWS documentation if you are stuck somewhere.
 3.  In terms of configuration, we have to choose parameter values as per our need. When you will refer this repo, you'll find multiple configuration details. I mentioned only those parameters which I thought important to take care of or could be new to someone. So please don't hesitate to google first and then ask me in case you need my help.
 # Index
-1. IAM
+1. [IAM] (https://github.com/A9HORA/AWS_Guide/tree/master/IAM)
 2. S3
 3. CloudFront
 4. Snowball
