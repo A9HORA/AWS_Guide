@@ -13,4 +13,13 @@
   * Security group will be created. `You can identify using VPC ID` 
   * Subnets won't be created.  
   * Internet Gateway won't be created.  
-* 
+* For newly created subnet there won't be any public IP address.  
+* AWS VPC & Subnets have 5 reserved IPs as follows: 
+  * 10.0.0.0 - NW address.
+  * 10.0.0.1 - For VPC Router.
+  * 10.0.0.2 - IP address of DNS server.
+  * 10.0.0.3 - For future use.
+  * 10.0.0.255 - NW broadcast address.
+* You can attach or detach an internet gateway. However, per VPC you can have only one internet gateway.  
+* Always keep main route table for private internet while create custom one for public internet. 
+* Every newly created subnet generally becomes public by default.  
