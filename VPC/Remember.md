@@ -1,3 +1,4 @@
+* Before creating a VPC make sure you are in the region of your choice.
 * Network ACL works as a first line of defense, a network firewall(stateless).  
   * It let us denie or allow rules as per our need.
   * Also has features of blocking IP/s.
