@@ -3,4 +3,7 @@
   * Also has features of blocking IP/s.
 * Security groups are further line of defense, a host based firewall(Stateful).  
 * Bastion Hosts are those machines or instances in your public subnet, able to communicate to machines or instances in the private subnet.  
+* Inside VPC, you are allowed to use /16 prefix for private subnet as larget one while /28 will be as smallest one.  
+* Don't worry if your default VPC is deleted accidently you can recover it.  
+* 1 Subnet = 1 AZ, You can have multiple subnets under one region but can not have one subnet over multiple region.  
 * 
